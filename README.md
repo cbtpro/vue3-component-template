@@ -9,7 +9,7 @@ npm install -g pnpm
 pnpm i
 ```
 
-## 文档
+## vitepress文档
 
 ## 编写文档
 
@@ -29,6 +29,20 @@ pnpm run docs:build
 
 ```sh
 pnpm run docs:preview
+```
+
+## storybook文档
+
+## 编写storybook文档
+
+```sh
+pnpm run storybook
+```
+
+## 编译storybook文档
+
+```sh
+pnpm run storybook:build
 ```
 
 ## 发布
